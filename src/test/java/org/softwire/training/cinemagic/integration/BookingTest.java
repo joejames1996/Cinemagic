@@ -1,6 +1,5 @@
 package org.softwire.training.cinemagic.integration;
 
-import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.google.common.base.Function;
 import org.junit.Rule;
 import org.junit.Test;
@@ -26,9 +25,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.TemporalUnit;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.equalTo;
